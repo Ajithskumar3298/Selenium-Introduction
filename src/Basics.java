@@ -9,6 +9,9 @@ public class Basics {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/");
 		System.out.println(driver.getTitle());
+		System.out.println("Hello");
+		System.out.println("My name is Ajith");
+		
 
 	}
 
