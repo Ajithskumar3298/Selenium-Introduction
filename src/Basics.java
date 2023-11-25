@@ -12,6 +12,13 @@ public class Basics {
 		System.out.println("Hello");
 		System.out.println("My name is Ajith");
 		
+		System.out.println("My name is amal");
+		System.out.println("My name is rahul");
+		System.out.println("My name is sandeep");
+		System.out.println("My name is hari");
+		
+		
+		
 
 	}
 
