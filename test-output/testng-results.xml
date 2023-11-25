@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-07T14:14:25 IST" name="Loan department" finished-at="2023-10-07T14:14:25 IST" duration-ms="233">
+    <groups>
+    </groups>
+    <test started-at="2023-10-07T14:14:25 IST" name="Personal Loan" finished-at="2023-10-07T14:14:25 IST" duration-ms="86">
+      <class name="testNG.testDemo">
+        <test-method signature="demo()[pri:0, instance:testNG.testDemo@5824a83d]" started-at="2023-10-07T14:14:25 IST" name="demo" finished-at="2023-10-07T14:14:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- testNG.testDemo -->
+      <class name="testNG.TestDemo1">
+        <test-method signature="EducationLoan()[pri:0, instance:testNG.TestDemo1@20140db9]" started-at="2023-10-07T14:14:25 IST" name="EducationLoan" finished-at="2023-10-07T14:14:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationLoan -->
+        <test-method signature="personalloan()[pri:0, instance:testNG.TestDemo1@20140db9]" started-at="2023-10-07T14:14:25 IST" name="personalloan" finished-at="2023-10-07T14:14:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalloan -->
+      </class> <!-- testNG.TestDemo1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-10-07T14:14:25 IST" name="car loan" finished-at="2023-10-07T14:14:25 IST" duration-ms="15">
+      <class name="testNG.CarLoan">
+        <test-method signature="APIlogincarloan(java.lang.String)[pri:0, instance:testNG.CarLoan@8519cb4]" started-at="2023-10-07T14:14:25 IST" name="APIlogincarloan" finished-at="2023-10-07T14:14:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIlogincarloan -->
+        <test-method signature="Weblogincarloan(java.lang.String)[pri:0, instance:testNG.CarLoan@8519cb4]" started-at="2023-10-07T14:14:25 IST" name="Weblogincarloan" finished-at="2023-10-07T14:14:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogincarloan -->
+      </class> <!-- testNG.CarLoan -->
+    </test> <!-- car loan -->
+    <test started-at="2023-10-07T14:14:25 IST" name="Home Loan" finished-at="2023-10-07T14:14:25 IST" duration-ms="16">
+      <class name="testNG.HomeLoan">
+        <test-method signature="Mobileloginhomeloan(java.lang.String)[pri:0, instance:testNG.HomeLoan@7a35b0f5]" started-at="2023-10-07T14:14:25 IST" name="Mobileloginhomeloan" finished-at="2023-10-07T14:14:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileloginhomeloan -->
+        <test-method signature="Mobilesigbnouthomeloan()[pri:0, instance:testNG.HomeLoan@7a35b0f5]" started-at="2023-10-07T14:14:25 IST" name="Mobilesigbnouthomeloan" finished-at="2023-10-07T14:14:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilesigbnouthomeloan -->
+        <test-method signature="Mobilesigninhomeloan()[pri:0, instance:testNG.HomeLoan@7a35b0f5]" started-at="2023-10-07T14:14:25 IST" name="Mobilesigninhomeloan" finished-at="2023-10-07T14:14:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilesigninhomeloan -->
+        <test-method signature="Webloginhomeloan()[pri:0, instance:testNG.HomeLoan@7a35b0f5]" started-at="2023-10-07T14:14:25 IST" name="Webloginhomeloan" finished-at="2023-10-07T14:14:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Webloginhomeloan -->
+      </class> <!-- testNG.HomeLoan -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan department -->
+</testng-results>
