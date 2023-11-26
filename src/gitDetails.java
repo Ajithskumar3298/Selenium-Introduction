@@ -17,5 +17,10 @@ public class gitDetails {
 		
 		System.out.println("linus");
 	}
+	@Test
+	public void open_server() {
+		
+		System.out.println("open");
+	}
 
 }
