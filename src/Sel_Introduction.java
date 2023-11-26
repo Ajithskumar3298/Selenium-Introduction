@@ -2,13 +2,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Sel_Introduction {
 
-	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+	@Test
+	public void browserdetails() throws InterruptedException {
 
 //		Chrome browser
 		System.setProperty("webdriver.chrome.driver",
@@ -36,6 +37,16 @@ public class Sel_Introduction {
 		Thread.sleep(5000);
 		driver.close();
 
+	}
+	@Test
+	public void deletebrowser() {
+		
+		System.out.println("delete browser");
+	}
+	@Test
+	public void changebrowser() {
+		
+		System.out.println("delete browser");
 	}
 
 }
